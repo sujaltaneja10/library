@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p class="heading">My Book Library</p>
+    
+    <div class="input">
+        <span class="is">
+            <label for="book-name">Book</label>
+            <input type="text" id="book-name" value="Book Name">
+        </span>
+        <span class="is">
+            <label for="book-author">Author</label>
+            <input type="text" id="book-author" value="Author Name">
+        </span>
+        <span class="is">
+            <label for="pages">Pages</label>
+            <input type="number" id="pages" value="100">
+        </span>
+        <span class="is">
+            <label for="status">Status</label>
+            <select name="status" id="status">
+                <option value="READ">READ</option>
+                <option value="NOT READ">NOT READ</option>
+            </select>
+        </span>
+        <button class="submit">SUBMIT</button>
+    </div>
+
+    <div class="show">
+        <hr>
+        <div class="output">
+            <span class="os oshead">Name</span>
+            <span class="os oshead">Author</span>
+            <span class="os oshead">Pages</span>
+            <span class="os oshead">Status</span>
+            <span class="os oshead">Delete</span>
+        </div>
+
+        <!-- js code here -->
+
+        <hr>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

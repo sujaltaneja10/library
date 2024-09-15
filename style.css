@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+    padding: 0px 150px;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+hr {
+    color: grey;
+}
+
+label {
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 0px;
+    margin-bottom: 50px;
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: #33C3F0;
+    border: 0;
+    border-radius: 10%;
+    color: white;
+}
+
+select {
+    padding: 5px 0px;
+    width: 80px;
+    height: 30px;
+}
+
+.is {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+input {
+    height: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+
+.output {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+
+#pages {
+    width: 50px;
+    height: 20px;
+}
+
+.os {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    width: calc(100%/ 5);
+    text-align: left;
+}
+
+.readBtn {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+}
+
+.deleteBtn {
+    background-color: #E41A67;
+    color: white;
+    border: 0px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.oshead {
+    font-weight: 500;
+}
+
+input, select, button {
+    font-family: "Raleway", sans-serif;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.readBtn:hover, .deleteBtn:hover {
+    border: 2px solid black;
+}
+
+.deleteBtn:hover {
+    background-color: #a5194f;
+}
+
+.submit:hover {
+    background-color: #2689a8;
+}
+
+button {
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
